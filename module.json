@@ -1,0 +1,52 @@
+{
+  "id": "bryg-new-bestaria",
+  "title": "Brigandyne 2  Hack By Mistryll",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Mistryll",
+      "discord": "mistrall",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "bestiaire",
+      "label": "Bestiaire",
+      "path": "packs/bestiaire",
+      "type": "Actor",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "template-mist-pj-et-pnj",
+      "label": "Template Mist PJ et PNJ",
+      "path": "packs/template-mist-pj-et-pnj",
+      "type": "Actor",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Atout-Mod-Mist",
+      "label": "Atout Mod Mist",
+      "path": "packs/Atout-Mod-Mist",
+      "type": "Item",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "Les compendium de Mistryll pour Brigandyne 2\n\n- PJ , PNJ  et PNJ mage template\n- Bestiaire pour aller avec les nouveau template (utilisation des roles et des titres)\n- Atout modifier"
+}
