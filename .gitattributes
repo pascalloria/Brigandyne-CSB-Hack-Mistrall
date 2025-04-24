@@ -1,0 +1,8 @@
+packs/** binary
+${
+    floor(creature_skill_com/10) +
+    floor(creature_skill_mou/10) +    
+    (first(lookup('creature_skills', 'skill_value', 'skill_name', 'Perception'),0)  ? 
+    floor(lookup('creature_skills', 'skill_value', 'skill_name', 'Perception')/10) :
+    3  )
+}$

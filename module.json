@@ -48,5 +48,15 @@
       }
     }
   ],
-  "description": "Les compendium de Mistryll pour Brigandyne 2\n\n- PJ , PNJ  et PNJ mage template\n- Bestiaire pour aller avec les nouveau template (utilisation des roles et des titres)\n- Atout modifier"
+  "description": "Les compendium de Mistryll pour Brigandyne 2\n\n- PJ , PNJ  et PNJ mage template\n- Bestiaire pour aller avec les nouveau template (utilisation des roles et des titres)\n- Atout modifier",
+  "relationships": {
+    "requires": [
+      {
+        "id": "brigandyne2e-csb-sheets",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://github.com/pascalloria/Brigandyne-CSB-Hack-Mistrall"
 }
